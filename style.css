@@ -7,12 +7,15 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+  font-size:40px;
+}
 .orange{
   color:darkorange;
 }
-section{
+.flex-element{
   display:flex;
-  margin-bottom:150px;
+  margin-bottom:170px;
 }
 .half-width{
    width: 50%;
@@ -35,3 +38,36 @@ section{
 
 }
 /*to section close*/
+.dream-big{
+  background-image: url(images/dream-bg.png);
+  background-repeat:no-repeat;
+  background-position:right;
+
+  }
+  
+.end-area{
+   width: 80%;
+   margin-left: 5%;
+   margin-right: 5%;
+   
+   padding-left:20px;
+   box-shadow: 0px 0px 40px grey;
+
+}
+#full{
+  border-left: 10px solid goldenrod;
+}
+#baby{
+  border-left: 7px solid brown;
+}
+.end{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left-center;
+}
+footer p{
+  text-align: center;
+  text-shadow: 3px 4px 8px royalblue;
+  font-weight: 600;
+  text-transform: capitalize;
+}
